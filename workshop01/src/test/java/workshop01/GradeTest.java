@@ -17,7 +17,6 @@ public class GradeTest {
 	public static Collection<Object[]> xxx() {
 		return Arrays.asList(new Object[][]{
 				{80, "A"},
-				{71, "B"},
 				{70, "B"},
 				{60, "C"},
 				{50, "D"},

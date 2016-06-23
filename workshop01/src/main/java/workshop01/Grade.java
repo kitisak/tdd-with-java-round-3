@@ -5,7 +5,7 @@ public class Grade {
 	public String withScore(int score) {
 		if (score == 70) {
 			return "B";
-		} else if (score == 60) {
+		} else if (checkGradeC(score)) {
 			return "C";
 		} else if (score == 50) {
 			return "D";
@@ -13,6 +13,10 @@ public class Grade {
 			return "F";
 		}
 		return "A";
+	}
+
+	private boolean checkGradeC(int score) {
+		return score == 60;
 	}
 
 }
